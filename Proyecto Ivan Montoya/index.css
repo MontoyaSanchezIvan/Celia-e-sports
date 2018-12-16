@@ -1,0 +1,154 @@
+@font-face {
+    font-family: 'glacial';
+    src: url(letra/GlacialIndifference-Regular.otf);
+}
+@font-face {
+    font-family: 'pepsi';
+    src: url(letra/pepsi.otf);
+}    
+
+#pagina {
+  width: 97%;
+  height: 97%;
+  margin: 4px auto;
+  background: url(imagenes/fondo.jpg);
+  /* url: https://www.lawebera.es/como-hacer/ejemplos-css/expandir-imagen-fondo-css.php*/
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  /* */
+}
+
+#cabecera{
+  font-size: x-large;
+	border: 2px dashed white;
+	padding: 15px;
+  margin: 15px;
+  text-decoration-color: white; 
+}
+
+#cabecera td{
+  text-align: center auto;
+}
+
+.escudo{
+  height: 200px;
+  width: 200px;
+  position: relative;
+}
+
+#buscador { 
+    float: right;
+    margin-bottom: 2px;
+    color: white;
+}
+
+#h1{
+  font-family: 'pepsi';
+  src: url(letra/pepsi.otf);
+  letter-spacing: 0.3em;
+  color: white;
+  text-align: center;
+  padding-top: 8px;
+}
+
+
+ #tituloh3{
+  font-family: Impact, Charcoal, sans-serif;
+  color: white;
+  letter-spacing: 0.2em;
+}
+
+#noticias{
+  font-family: 'glacial';
+  src: url(letra/GlacialIndifference-Regular.otf);
+  color: white;
+  letter-spacing: 0.3em;
+  text-align: justify auto;
+  padding: 10px;
+  border: 4px dashed purple;
+}
+
+#Ultimasnoticias{
+   font-family: 'glacial';
+  src: url(letra/GlacialIndifference-Regular.otf);
+  color: white;
+  letter-spacing: 0.3em;
+  text-align: justify auto;
+  padding: 10px;
+  left: 17%;
+  border: 4px dashed purple;
+}
+
+#articulos, #derecha{
+   font-family: 'glacial';
+  src: url(letra/GlacialIndifference-Regular.otf);
+  color: white;
+  letter-spacing: 0.3em;
+  text-align: justify auto;
+  padding: 10px;
+   border: 4px dashed purple;
+}
+
+#tituloh2{
+  font-family: Impact, Charcoal, sans-serif;
+  color: white;
+  letter-spacing: 0.2em;
+  text-align: center;
+}
+
+#texto{
+  font-family: 'glacial';
+  src: url(letra/GlacialIndifference-Regular.otf);
+  color: white;
+  letter-spacing: 0.3em;
+  text-align: justify auto;
+  margin: 10px;
+  padding: 10px;
+  font-size: x-large;
+}
+
+#texto strong{
+  font-size: x-large;
+  color: purple;
+  border-bottom: 2px solid purple;
+}
+
+.iescelia{
+  font-family: sans-serif;
+  float: left;
+  z-index: 5;
+  margin: 5px;
+  padding: 5px;
+}
+
+.localizacion{
+  font-size: x-large;
+  color:purple;
+  font-family: sans-serif;
+}
+
+#titulo{
+  font-family: Impact, Charcoal, sans-serif;
+  color: white;
+  letter-spacing: 0.2em;
+  text-align: center;
+}
+
+#contenido{
+  font-family: 'glacial';
+  src: url(letra/GlacialIndifference-Regular.otf);
+  color: white;
+  letter-spacing: 0.3em;
+  text-align: justify auto;
+  margin: 10px;
+  padding: 10px;
+  font-size: x-large;
+}
+
+#twiter{
+    float:right;
+    padding: 2px;
+    margin: 2px;
+}
